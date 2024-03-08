@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: "Ojuju", sans-serif;
+}
+h1 span {
+  font-size: 50px;
+  color: #44bd32;
+}
+.green_highligth {
+  color: #44bd32;
+}
+p {
+  color: rgb(33, 31, 31);
+  text-align: justify;
+}
+.half_width {
+  width: 40%;
+  float: left;
+  padding-left: 5%;
+  margin-left: 2%;
+  transition: all 4s;
+}
+.half_width img {
+  width: 100%;
+}
+.background {
+  background-image: url(./images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  height: 100vh;
+}
+.link_button {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #fa9d78, #f54f31);
+  padding: 6px 16px;
+  border-radius: 1%;
+  color: white;
+  font-weight: 700;
+}
+a#color_change:hover {
+  background-image: linear-gradient(90deg, #43e2ce, #3899f6);
+  color: #000;
+}
+.background_1 {
+  background-image: url(./images/background2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.half_width1 {
+  width: 40%;
+  float: left;
+  padding-left: 5%;
+  margin-left: 2%;
+  transition: all 5s;
+}
+.half_width1 .link_button {
+  background-image: linear-gradient(90deg, #43e2ce, #3899f6);
+  color: white;
+}
+
+/* section {
+  height: 100vh;
+} */
+a#color_change1:hover {
+  background-image: linear-gradient(45deg, #fa9d78, #f54f31);
+  color: #000;
+}
+.background_2 {
+  background-image: url(./images/background3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.green_highligth {
+  color: #192a56;
+}
+.single_experience p {
+  text-align: left;
+}
+.single_experience {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 3px;
+  height: 40%;
+}
+#full_stack {
+  border-left: 6px solid;
+  border-image: linear-gradient(180deg, #fa9d78, #f54f31);
+  border-image-slice: 1;
+  background-color: gray;
+}
+#child_web {
+  border-left: 6px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+footer {
+  background-image: url(/images/background.jpg);
+}
+footer p {
+  text-align: center;
+  color: black;
+  font-size: 13px;
+}
